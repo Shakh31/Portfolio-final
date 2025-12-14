@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Shakhzod Ilkhomov</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Shakhzod<span class="accent">.</span></a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="certificates.html" class="nav-link">Certificates</a></li>
+        </ul>
+      </nav>
+
+      <div class="controls">
+        <button id="theme-toggle-projects" aria-label="Toggle light/dark mode" class="toggle-btn">☀️</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <header class="section-header">
+      <h1>Projects</h1>
+      <p class="lead">A few projects built while learning — each demonstrates a different skill or concept.</p>
+    </header>
+
+    <section class="projects-grid">
+      <!-- Example project card — duplicate & edit for each project -->
+      <article class="project-card">
+        <h3>Mini Project</h3>
+        <p>Personal project built with HTML/CSS and a bit of JS. Deployed on GitHub Pages.</p>
+        <p class="proj-meta"><strong>Tech:</strong> HTML, CSS, JS</p>
+        <div class="proj-actions">
+          <a href="#" class="btn ghost">View Demo</a>
+          <a href="https://shakh31.github.io/Mini-project/" target="_blank" rel="noopener" class="btn primary">Source</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h3>2-task</h3>
+        <p>Simple task CRUD app demonstrating DOM manipulation and localStorage persistence.</p>
+        <p class="proj-meta"><strong>Tech:</strong> HTML, CSS</p>
+        <div class="proj-actions">
+          <a href="#" class="btn ghost">View Demo</a>
+          <a href="https://shakh31.github.io/2-task/" class="btn primary">Source</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h3>3-task</h3>
+        <p>Simple task CRUD app demonstrating DOM manipulation and localStorage persistence.</p>
+        <p class="proj-meta"><strong>Tech:</strong> HTML, CSS, JS</p>
+        <div class="proj-actions">
+          <a href="#" class="btn ghost">Docs</a>
+          <a href="https://shakh31.github.io/Web-basic/" class="btn primary">Source</a>
+        </div>
+      </article>
+
+      <!-- add more project-card blocks as needed -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Shakhzod Ilkhomov</p>
+    </div>
+  </footer>
+</body>
+</html>
